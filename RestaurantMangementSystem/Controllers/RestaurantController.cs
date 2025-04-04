@@ -13,7 +13,7 @@ using BusinessLogicLayer.Dtos;
 
 namespace RestaurantMangementSystem.Controllers
 {
-    [Route("[controller]/[action]")]
+    //[Route("[controller]/[action]")]
     public class RestaurantController : Controller
     {
         private readonly ApplicationDbContext _context;
@@ -57,8 +57,7 @@ namespace RestaurantMangementSystem.Controllers
         }
 
         // POST: Restaurant/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nom,Adresse,Cuisine,Note")] RestaurantDto restaurant)
@@ -100,24 +99,10 @@ namespace RestaurantMangementSystem.Controllers
 
             if (ModelState.IsValid)
             {
-                try
-                {
-                    await _restaurantService.UpdateRestaurantAsync(restaurant);
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (_restaurantService.GetRestaurantByIdAsync(restaurant.Id) == null)
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
-                return RedirectToAction(nameof(Index));
+                restaurant = await _restaurantService.UpdateRestaurantAsync(restaurant);
             }
-            return View(restaurant);
+           
+            return RedirectToAction("Index");
         }
 
         // GET: Restaurant/Delete/5
