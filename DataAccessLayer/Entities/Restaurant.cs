@@ -17,5 +17,7 @@ namespace DataAccessLayer.Entities
         public string Adresse { get; set; } = string.Empty;
         public string Cuisine { get; set; } = string.Empty;
         public string Note { get; set; } = string.Empty;
+
+        public string Image { get; set; } = string.Empty;
     }
 }

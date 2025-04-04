@@ -1,22 +1,12 @@
 using BusinessLogicLayer.Profiles;
-using BusinessLogicLayer.Services;
-using Microsoft.EntityFrameworkCore;
-using RestaurantMangementSystem.Data;
-using RestaurantMangementSystem.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddScoped<IRestaurantService, RestaurantService>();
-builder.Services.AddScoped<IRestaurantRepository, RestaurantRepository>();
-
 builder.Services.AddAutoMapper(typeof(RestaurantProfile));
 
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("Database"))
-);
 
 var app = builder.Build();
 

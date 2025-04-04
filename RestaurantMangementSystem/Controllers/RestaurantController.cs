@@ -1,15 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using DataAccessLayer.Entities;
+﻿
 using RestaurantMangementSystem.Data;
-using RestaurantMangementSystem.Repositories;
 using BusinessLogicLayer.Services;
 using BusinessLogicLayer.Dtos;
+using RestaurantMangementSystem.Models;
+using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 
 namespace RestaurantMangementSystem.Controllers
 {
@@ -18,12 +13,14 @@ namespace RestaurantMangementSystem.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IRestaurantService _restaurantService;
+        private readonly IMapper _mapper;
 
 
-        public RestaurantController(ApplicationDbContext context, IRestaurantService restaurantService)
+        public RestaurantController(ApplicationDbContext context, IRestaurantService restaurantService, IMapper mapper)
         {
             _context = context;
             _restaurantService = restaurantService;
+            _mapper = mapper;
         }
 
         // GET: Restaurant
@@ -60,11 +57,12 @@ namespace RestaurantMangementSystem.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nom,Adresse,Cuisine,Note")] RestaurantDto restaurant)
+        public async Task<IActionResult> Create([Bind("Id,Nom,Adresse,Cuisine,Note")] RestaurantModel restaurant)
         {
             if (ModelState.IsValid)
             {
-                await _restaurantService.AddRestaurantAsync(restaurant);
+                var restaurantDto = _mapper.Map<RestaurantDto>(restaurant);
+                await _restaurantService.AddRestaurantAsync(restaurantDto);
                 return RedirectToAction(nameof(Index));
             }
             return View(restaurant);
@@ -90,7 +88,7 @@ namespace RestaurantMangementSystem.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Id,Nom,Adresse,Cuisine,Note")] RestaurantDto restaurant)
+        public async Task<IActionResult> Edit(string id, [Bind("Id,Nom,Adresse,Cuisine,Note")] RestaurantModel restaurant)
         {
             if (id != restaurant.Id)
             {
@@ -99,10 +97,11 @@ namespace RestaurantMangementSystem.Controllers
 
             if (ModelState.IsValid)
             {
-                restaurant = await _restaurantService.UpdateRestaurantAsync(restaurant);
+                var restaurantDto = _mapper.Map<RestaurantDto>(restaurant);
+                await _restaurantService.UpdateRestaurantAsync(restaurantDto);
             }
-           
-            return RedirectToAction("Index");
+
+             return RedirectToAction("Index");
         }
 
         // GET: Restaurant/Delete/5

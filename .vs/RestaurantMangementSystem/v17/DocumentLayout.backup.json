@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\restaurantmangementsystem\\views\\restaurant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|solutionrelative:restaurantmangementsystem\\views\\restaurant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\restaurantmangementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|solutionrelative:restaurantmangementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199369C4-42B8-44D0-9BE5-8D66671724A6}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\dataaccesslayer\\diconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199369C4-42B8-44D0-9BE5-8D66671724A6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\diconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2C9A9C-8A88-4810-AD87-678027E0A315}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\businesslogiclayer\\diconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2C9A9C-8A88-4810-AD87-678027E0A315}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\diconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\restaurantmangementsystem\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|solutionrelative:restaurantmangementsystem\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\restaurantmangementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|solutionrelative:restaurantmangementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6A2C9A9C-8A88-4810-AD87-678027E0A315}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\businesslogiclayer\\dtos\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A2C9A9C-8A88-4810-AD87-678027E0A315}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\dtos\\restaurantdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\restaurantmangementsystem\\models\\restaurantmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|solutionrelative:restaurantmangementsystem\\models\\restaurantmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A2C9A9C-8A88-4810-AD87-678027E0A315}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\businesslogiclayer\\services\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A2C9A9C-8A88-4810-AD87-678027E0A315}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\irestaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A2C9A9C-8A88-4810-AD87-678027E0A315}|BusinessLogicLayer\\BusinessLogicLayer.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\businesslogiclayer\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6A2C9A9C-8A88-4810-AD87-678027E0A315}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\services\\restaurantservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\restaurantmangementsystem\\views\\restaurant\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|solutionrelative:restaurantmangementsystem\\views\\restaurant\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{199369C4-42B8-44D0-9BE5-8D66671724A6}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\dataaccesslayer\\repositories\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199369C4-42B8-44D0-9BE5-8D66671724A6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\imageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{199369C4-42B8-44D0-9BE5-8D66671724A6}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\dataaccesslayer\\repositories\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{199369C4-42B8-44D0-9BE5-8D66671724A6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\iimageservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{199369C4-42B8-44D0-9BE5-8D66671724A6}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\dataaccesslayer\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{199369C4-42B8-44D0-9BE5-8D66671724A6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\entities\\restaurant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\restaurantmangementsystem\\views\\restaurant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|solutionrelative:restaurantmangementsystem\\views\\restaurant\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\restaurantmangementsystem\\views\\restaurant\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|solutionrelative:restaurantmangementsystem\\views\\restaurant\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\restaurantmangementsystem\\views\\restaurant\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -46,37 +70,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "RestaurantModel.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Models\\RestaurantModel.cs",
+              "RelativeDocumentMoniker": "RestaurantMangementSystem\\Models\\RestaurantModel.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Models\\RestaurantModel.cs",
+              "RelativeToolTip": "RestaurantMangementSystem\\Models\\RestaurantModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:11:06.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RestaurantDto.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\Dtos\\RestaurantDto.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Dtos\\RestaurantDto.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\Dtos\\RestaurantDto.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Dtos\\RestaurantDto.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBMAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:54:32.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RestaurantController.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Controllers\\RestaurantController.cs",
+              "RelativeDocumentMoniker": "RestaurantMangementSystem\\Controllers\\RestaurantController.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Controllers\\RestaurantController.cs",
+              "RelativeToolTip": "RestaurantMangementSystem\\Controllers\\RestaurantController.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:28:53.05Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RestaurantService.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\Services\\RestaurantService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\RestaurantService.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\Services\\RestaurantService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\RestaurantService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:34:10.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "RestaurantMangementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Program.cs",
+              "RelativeToolTip": "RestaurantMangementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:33:04.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DIConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\DataAccessLayer\\DIConfiguration.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\DIConfiguration.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\DataAccessLayer\\DIConfiguration.cs",
+              "RelativeToolTip": "DataAccessLayer\\DIConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:24:52.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DIConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\DIConfiguration.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\DIConfiguration.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\DIConfiguration.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\DIConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:23:34.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IRestaurantService.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\Services\\IRestaurantService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\IRestaurantService.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\Services\\IRestaurantService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Services\\IRestaurantService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAewAoAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:22:13.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ImageService.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\DataAccessLayer\\Repositories\\ImageService.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\ImageService.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\DataAccessLayer\\Repositories\\ImageService.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\ImageService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:53:46.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IImageService.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\DataAccessLayer\\Repositories\\IImageService.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\IImageService.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\DataAccessLayer\\Repositories\\IImageService.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\IImageService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T15:53:55.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Edit.cshtml",
               "RelativeDocumentMoniker": "RestaurantMangementSystem\\Views\\Restaurant\\Edit.cshtml",
               "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Edit.cshtml",
               "RelativeToolTip": "RestaurantMangementSystem\\Views\\Restaurant\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACQAAABSAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-04-04T14:55:13.962Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Details.cshtml",
-              "RelativeDocumentMoniker": "RestaurantMangementSystem\\Views\\Restaurant\\Details.cshtml",
-              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Details.cshtml",
-              "RelativeToolTip": "RestaurantMangementSystem\\Views\\Restaurant\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Create.cshtml",
+              "RelativeDocumentMoniker": "RestaurantMangementSystem\\Views\\Restaurant\\Create.cshtml",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Create.cshtml",
+              "RelativeToolTip": "RestaurantMangementSystem\\Views\\Restaurant\\Create.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAIBJwCMAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T14:55:10.934Z",
+              "WhenOpened": "2025-04-04T14:54:53.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Delete.cshtml",
               "RelativeDocumentMoniker": "RestaurantMangementSystem\\Views\\Restaurant\\Delete.cshtml",
@@ -89,80 +243,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Create.cshtml",
-              "RelativeDocumentMoniker": "RestaurantMangementSystem\\Views\\Restaurant\\Create.cshtml",
-              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Create.cshtml",
-              "RelativeToolTip": "RestaurantMangementSystem\\Views\\Restaurant\\Create.cshtml",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACMAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-04-04T14:54:53.894Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RestaurantDto.cs",
-              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\Dtos\\RestaurantDto.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Dtos\\RestaurantDto.cs",
-              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\Dtos\\RestaurantDto.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Dtos\\RestaurantDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T14:54:32.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RestaurantService.cs",
-              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\Services\\RestaurantService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Services\\RestaurantService.cs",
-              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\BusinessLogicLayer\\Services\\RestaurantService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Services\\RestaurantService.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBMAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T14:34:10.133Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "RestaurantMangementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Program.cs",
-              "RelativeToolTip": "RestaurantMangementSystem\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAASwBEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T14:33:04.405Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RestaurantController.cs",
-              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Controllers\\RestaurantController.cs",
-              "RelativeDocumentMoniker": "RestaurantMangementSystem\\Controllers\\RestaurantController.cs",
-              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Controllers\\RestaurantController.cs",
-              "RelativeToolTip": "RestaurantMangementSystem\\Controllers\\RestaurantController.cs",
-              "ViewState": "AgIAAFwAAAAAAAAAAAAswGMAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-04T14:28:53.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Restaurant.cs",
               "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\DataAccessLayer\\Entities\\Restaurant.cs",
               "RelativeDocumentMoniker": "DataAccessLayer\\Entities\\Restaurant.cs",
               "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\DataAccessLayer\\Entities\\Restaurant.cs",
               "RelativeToolTip": "DataAccessLayer\\Entities\\Restaurant.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-04T14:57:32.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Details.cshtml",
+              "RelativeDocumentMoniker": "RestaurantMangementSystem\\Views\\Restaurant\\Details.cshtml",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Views\\Restaurant\\Details.cshtml",
+              "RelativeToolTip": "RestaurantMangementSystem\\Views\\Restaurant\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-04T14:55:10.934Z",
               "EditorCaption": ""
             }
           ]
