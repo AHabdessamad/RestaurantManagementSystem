@@ -1,4 +1,6 @@
+using BusinessLogicLayer;
 using BusinessLogicLayer.Profiles;
+using DataAccessLayer;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +9,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddAutoMapper(typeof(RestaurantProfile));
 
+builder.Services.AddServices(builder.Configuration);
 
 var app = builder.Build();
 

@@ -13,14 +13,16 @@ namespace RestaurantMangementSystem.Controllers
     {
         private readonly ApplicationDbContext _context;
         private readonly IRestaurantService _restaurantService;
+        private readonly IImageService _imageService;
         private readonly IMapper _mapper;
 
 
-        public RestaurantController(ApplicationDbContext context, IRestaurantService restaurantService, IMapper mapper)
+        public RestaurantController(ApplicationDbContext context, IRestaurantService restaurantService, IMapper mapper, IImageService imageService)
         {
             _context = context;
             _restaurantService = restaurantService;
             _mapper = mapper;
+            _imageService = imageService;
         }
 
         // GET: Restaurant
@@ -61,11 +63,27 @@ namespace RestaurantMangementSystem.Controllers
         {
             if (ModelState.IsValid)
             {
-                var restaurantDto = _mapper.Map<RestaurantDto>(restaurant);
-                await _restaurantService.AddRestaurantAsync(restaurantDto);
-                return RedirectToAction(nameof(Index));
+                if (restaurant.Image != null)
+                {
+                    var fileResult = _imageService.SaveImage(restaurant.Image, restaurant.ImagePath);
+
+                    if (fileResult.Item1 == 1)
+                    {
+                        restaurant.ImagePath = fileResult.Item2;
+
+                    }
+
+                    var restaurantDto = _mapper.Map<RestaurantDto>(restaurant);
+                    var res = await _restaurantService.AddRestaurantAsync(restaurantDto);
+
+                    if(res != null)
+                    {
+                        return View(_mapper.Map<RestaurantModel>(res));
+                    }
+                }
+            
             }
-            return View(restaurant);
+            return RedirectToAction("Index"); ;
         }
 
         // GET: Restaurant/Edit/5

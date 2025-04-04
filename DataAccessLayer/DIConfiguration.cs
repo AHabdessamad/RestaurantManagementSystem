@@ -2,6 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using RestaurantMangementSystem.Data;
+using RestaurantMangementSystem.Repositories;
 
 namespace DataAccessLayer
 {
@@ -11,6 +12,7 @@ namespace DataAccessLayer
         {
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(configuration.GetConnectionString("Database")));
+            
 
             return services;
         }

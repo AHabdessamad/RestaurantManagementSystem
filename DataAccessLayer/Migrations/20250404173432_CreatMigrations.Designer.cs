@@ -11,8 +11,8 @@ using RestaurantMangementSystem.Data;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250404121612_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20250404173432_CreatMigrations")]
+    partial class CreatMigrations
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -27,6 +27,7 @@ namespace DataAccessLayer.Migrations
             modelBuilder.Entity("DataAccessLayer.Entities.Restaurant", b =>
                 {
                     b.Property<string>("Id")
+                        .ValueGeneratedOnAdd()
                         .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Adresse")
@@ -35,6 +36,9 @@ namespace DataAccessLayer.Migrations
 
                     b.Property<string>("Cuisine")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ImagePath")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Nom")

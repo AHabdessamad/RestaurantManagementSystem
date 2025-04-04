@@ -1408,7 +1408,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "Microsoft.AspNetCore.Hosting": "2.3.0",
           "Microsoft.AspNetCore.Http.Features": "5.0.17",
           "Microsoft.EntityFrameworkCore": "9.0.3",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.3"
@@ -3694,6 +3693,7 @@
     "net9.0": [
       "AutoMapper >= 14.0.0",
       "DataAccessLayer >= 1.0.0",
+      "Microsoft.AspNetCore.Hosting >= 2.3.0",
       "Microsoft.AspNetCore.Http.Features >= 5.0.17"
     ]
   },
@@ -3754,6 +3754,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[14.0.0, )"
+          },
+          "Microsoft.AspNetCore.Hosting": {
+            "target": "Package",
+            "version": "[2.3.0, )"
           },
           "Microsoft.AspNetCore.Http.Features": {
             "target": "Package",

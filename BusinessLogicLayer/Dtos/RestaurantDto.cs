@@ -18,5 +18,6 @@ namespace BusinessLogicLayer.Dtos
         public string Note { get; set; } = string.Empty;
         [NotMapped]
         public IFormFile? Image { get; set; } 
+        public string? ImagePath { get; set; } = string.Empty;
     }
 }

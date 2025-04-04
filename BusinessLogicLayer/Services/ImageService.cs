@@ -1,25 +1,23 @@
-﻿using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Http;
 
-namespace DataAccessLayer.Repositories
+namespace BusinessLogicLayer.Services
 {
     public class ImageService : IImageService
     {
-        public class FileService(IWebHostEnvironment environment)
+        private readonly IHostingEnvironment _environment;
+        public  ImageService(IHostingEnvironment env)
         {
-            this.environment = environment;
+            _environment = env;
         }
-        public Tuple<int, string> SaveImage(IFormFile imageFile)
+        public Tuple<int, string> SaveImage(IFormFile imageFile, string imagePath)
         {
             try
             {
-                var contentPath = this.environment.ContentRootPath;
-                // path = "c://projects/productminiapi/uploads" ,not exactly something like that
-                var path = Path.Combine(contentPath, "Uploads");
+                var contentPath = _environment.ContentRootPath;
+                
+                var path = Path.Combine(contentPath, "UPLOADS");
+
                 if (!Directory.Exists(path))
                 {
                     Directory.CreateDirectory(path);
@@ -33,13 +31,17 @@ namespace DataAccessLayer.Repositories
                     string msg = string.Format("Only {0} extensions are allowed", string.Join(",", allowedExtensions));
                     return new Tuple<int, string>(0, msg);
                 }
+
                 string uniqueString = Guid.NewGuid().ToString();
-                // we are trying to create a unique filename here
+
+                // File Name
                 var newFileName = uniqueString + ext;
                 var fileWithPath = Path.Combine(path, newFileName);
                 var stream = new FileStream(fileWithPath, FileMode.Create);
+                // Save the file
                 imageFile.CopyTo(stream);
                 stream.Close();
+
                 return new Tuple<int, string>(1, newFileName);
             }
             catch (Exception ex)
@@ -50,13 +52,12 @@ namespace DataAccessLayer.Repositories
 
         public async Task DeleteImage(string imageFileName)
         {
-            var contentPath = this.environment.ContentRootPath;
+            var contentPath = _environment.ContentRootPath;
 
             var path = Path.Combine(contentPath, $"Uploads", imageFileName);
             if (File.Exists(path))
                 File.Delete(path);
         }
     }
-    {
-    }
+ 
 }
