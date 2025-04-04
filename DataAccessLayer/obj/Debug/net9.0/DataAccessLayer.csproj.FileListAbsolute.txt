@@ -1,0 +1,13 @@
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.deps.json
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.dll
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.pdb
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfo.cs
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.sourcelink.json
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.dll
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\obj\Debug\net9.0\refint\DataAccessLayer.dll
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.pdb
+C:\Users\aaithamou\source\repos\RestaurantMangementSystem\DataAccessLayer\obj\Debug\net9.0\ref\DataAccessLayer.dll

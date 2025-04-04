@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|c:\\users\\aaithamou\\source\\repos\\restaurantmangementsystem\\restaurantmangementsystem\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{689BA5D7-5D15-47B0-A3B1-9B39CB6C8AD4}|RestaurantMangementSystem\\RestaurantMangementSystem.csproj|solutionrelative:restaurantmangementsystem\\controllers\\restaurantcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RestaurantController.cs",
+              "DocumentMoniker": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Controllers\\RestaurantController.cs",
+              "RelativeDocumentMoniker": "RestaurantMangementSystem\\Controllers\\RestaurantController.cs",
+              "ToolTip": "C:\\Users\\aaithamou\\source\\repos\\RestaurantMangementSystem\\RestaurantMangementSystem\\Controllers\\RestaurantController.cs*",
+              "RelativeToolTip": "RestaurantMangementSystem\\Controllers\\RestaurantController.cs*",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAswI0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T14:28:53.05Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
